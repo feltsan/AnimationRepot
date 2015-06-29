@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">AnimationRepot</string>
+    <string name="alpha">Alpha</string>
+    <string name="scale">Scale</string>
+    <string name="rotate">Ratate</string>
+    <string name="translate">Translate</string>
 
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
 </resources>
