@@ -11,16 +11,7 @@
         android:id="@+id/object_drawable"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/battery1" />
+        android:src="@drawable/drawable_charge" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/start"
-        android:id="@+id/start_drawable"
-        android:layout_marginBottom="34dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:paddingLeft="@dimen/abc_button_padding_horizontal_material"
-        android:paddingRight="@dimen/abc_button_padding_horizontal_material" />
+
 </RelativeLayout>

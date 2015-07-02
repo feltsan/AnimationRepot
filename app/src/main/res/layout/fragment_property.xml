@@ -23,31 +23,35 @@
         android:layout_marginRight="@dimen/abc_action_bar_default_padding_material">
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="@dimen/null_dimension"
             android:layout_height="wrap_content"
             android:text="@string/alpha"
             android:id="@+id/alpha_property"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            style="@style/button_style"/>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="@dimen/null_dimension"
             android:layout_height="wrap_content"
             android:text="@string/scale"
             android:id="@+id/scale_property"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            style="@style/button_style"/>
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="@dimen/null_dimension"
             android:layout_height="wrap_content"
             android:text="@string/translate"
             android:id="@+id/translate_property"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            style="@style/button_style"/>
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="@dimen/null_dimension"
             android:layout_height="wrap_content"
             android:text="@string/set"
             android:id="@+id/set_property"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            style="@style/button_style"/>
 
     </LinearLayout>
 </RelativeLayout>
