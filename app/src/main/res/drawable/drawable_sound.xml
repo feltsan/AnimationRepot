@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/hear_icon0" android:duration="200"></item>
+    <item android:drawable="@drawable/hear_icon1" android:duration="200"></item>
+    <item android:drawable="@drawable/hear_icon2" android:duration="200"></item>
+    <item android:drawable="@drawable/hear_icon3" android:duration="200"></item>
+
+
+</animation-list>

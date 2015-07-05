@@ -19,7 +19,6 @@ import com.thinkmobiles.animationrepot.R;
 public class ViewFragment extends Fragment {
 
     private Button alpha, translate, rotate, scale, set;
-    private ImageView objectAnimation;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -34,7 +33,6 @@ public class ViewFragment extends Fragment {
         rotate          = (Button) view.findViewById(R.id.rotate_view);
         scale           = (Button) view.findViewById(R.id.scale_view);
         translate       = (Button) view.findViewById(R.id.translate_view);
-        objectAnimation = (ImageView) view.findViewById(R.id.object_view);
         set             = (Button) view.findViewById(R.id.set_view);
     }
 
@@ -72,7 +70,7 @@ public class ViewFragment extends Fragment {
 
         @Override
         public void onClick(View view) {
-            objectAnimation.startAnimation(mAnimation);
+            view.startAnimation(mAnimation);
         }
     }
 

@@ -5,53 +5,38 @@
     android:layout_height="match_parent"
     tools:context="com.thinkmobiles.animationrepot.fragments.PropertyFragment">
 
-    <ImageView
-        android:layout_width="@dimen/abc_action_bar_stacked_tab_max_width"
-        android:layout_height="@dimen/abc_action_bar_stacked_tab_max_width"
-        android:id="@+id/object_property"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/star" />
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="@dimen/abc_action_bar_default_padding_material"
-        android:layout_marginLeft="@dimen/abc_action_bar_default_padding_material"
-        android:layout_marginRight="@dimen/abc_action_bar_default_padding_material">
 
         <Button
-            android:layout_width="@dimen/null_dimension"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/alpha"
             android:id="@+id/alpha_property"
-            android:layout_weight="1"
-            style="@style/button_style"/>
+            android:layout_margin="@dimen/margin_dimension"
+            android:layout_centerHorizontal="true"/>
 
         <Button
-            android:layout_width="@dimen/null_dimension"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/scale"
             android:id="@+id/scale_property"
-            android:layout_weight="1"
-            style="@style/button_style"/>
+            android:layout_below="@id/alpha_property"
+            android:layout_margin="@dimen/margin_dimension"
+            android:layout_centerHorizontal="true"/>
 
         <Button
-            android:layout_width="@dimen/null_dimension"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/translate"
             android:id="@+id/translate_property"
-            android:layout_weight="1"
-            style="@style/button_style"/>
+            android:layout_below="@id/scale_property"
+            android:layout_margin="@dimen/margin_dimension"
+            android:layout_centerHorizontal="true"/>
         <Button
-            android:layout_width="@dimen/null_dimension"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/set"
             android:id="@+id/set_property"
-            android:layout_weight="1"
-            style="@style/button_style"/>
+            android:layout_below="@id/translate_property"
+            android:layout_centerHorizontal="true"/>
 
-    </LinearLayout>
 </RelativeLayout>

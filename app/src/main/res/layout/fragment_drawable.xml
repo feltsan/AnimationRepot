@@ -11,7 +11,7 @@
         android:id="@+id/object_drawable"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/drawable_charge" />
+        android:src="@drawable/drawable_sound" />
 
 
 </RelativeLayout>

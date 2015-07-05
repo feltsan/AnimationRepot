@@ -21,7 +21,6 @@ import com.thinkmobiles.animationrepot.R;
 public class PropertyFragment extends Fragment {
 
     private Button alpha, translate, set, scale;
-    private ImageView objectAnimation;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -36,7 +35,6 @@ public class PropertyFragment extends Fragment {
         translate = (Button) view.findViewById(R.id.translate_property);
         scale = (Button) view.findViewById(R.id.scale_property);
         set = (Button) view.findViewById(R.id.set_property);
-        objectAnimation = (ImageView) view.findViewById(R.id.object_property);
     }
 
     public void setListener() {
@@ -78,7 +76,7 @@ public class PropertyFragment extends Fragment {
 
         @Override
         public void onClick(View view) {
-            mAnimator.setTarget(objectAnimation);
+            mAnimator.setTarget(view);
             mAnimator.start();
         }
     }
